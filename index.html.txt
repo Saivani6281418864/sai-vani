@@ -1,0 +1,64 @@
+const resume = {
+  personalInfo: {
+    name: "K sai vani",
+    email: "ksaivani97@email.com",
+    phone: "8712405414",
+    location: "rayadugram, Anantapur",
+    linkedin: "https://linkedin.com/ksaivani",
+    github: "https://github.com/ksaivani"
+  },
+
+  summary: "Full Stack Developer with 3+ years of experience building web applications using JavaScript, React, Node.js, and MongoDB.",
+
+  skills: [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Git"
+  ],
+
+  education: [
+    {
+      degree: "Bachelor of Science in Computer Science",
+      institution: "ABC University",
+      year: "2024"
+    }
+  ],
+
+  experience: [
+    {
+      company: "Tech Solutions Inc.",
+      position: "Frontend Developer",
+      duration: "2024 - Present",
+      responsibilities: [
+        "Developed responsive web applications using React.",
+        "Collaborated with backend teams to integrate APIs.",
+        "Improved application performance by 30%."
+      ]
+    }
+  ],
+
+  projects: [
+    {
+      name: "E-Commerce Website",
+      technologies: ["React", "Node.js", "MongoDB"],
+      description: "Built a full-stack e-commerce platform with authentication and payment integration."
+    },
+    {
+      name: "Task Manager App",
+      technologies: ["JavaScript", "Express.js"],
+      description: "Created a task management application with CRUD functionality."
+    }
+  ],
+
+  certifications: [
+    "JavaScript Algorithms and Data Structures",
+    "AWS Cloud Practitioner"
+  ]
+};
+
+console.log(resume);
