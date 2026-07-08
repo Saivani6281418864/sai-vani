@@ -1,10 +1,30 @@
-<html>
-    <head>
-        <title>JavaScript</title>
-         <body>
-          <h1>Hello form Dept of CSE AI</h1>  
-          <center><h1>wellcome to FSD-2 LAB</h1></center>
-          <center><h1>here we are learning Full stack Development using HTML, CSS, JAVASCRIPT</h1></center>
-        </body>
-    </head>
-</html>
+import React, { Component } from "react"; 
+
+class App extends Component { 
+  constructor() {
+    super();
+    this.state = {
+      count: 0
+    };
+  }
+
+  increment = () => {
+    this.setState({
+      count: this.state.count + 1
+    });
+  }; 
+
+  render() {
+    return (
+      <div>
+        <h1>Class Counter</h1>
+        <h2>{this.state.count}</h2>
+        <button onClick={this.increment}>
+          Increment
+        </button>
+      </div>
+    );
+  }
+} 
+
+export default App;
